@@ -1,0 +1,142 @@
+/* Logo section  */
+
+.section--logo {
+    width: 39.6%;
+    padding-left: 5%;
+}
+
+.specific {
+    padding-top: 12.4%;
+}
+
+
+/* Main introduction section*/
+
+#fieutiures {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.fiuture--tabs {
+    display: inline-block;
+    /* margin:9.15080527%;*/
+    /* width:29.792%;  follback*/
+    width: 28%;
+    text-align: center;
+}
+
+.extra {
+    @include extra-flexible();
+}
+
+.icon {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: $green-color;
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    color: $snow;
+    font-size: 2.7em;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+
+
+/*  Main Subscribe section */
+
+#subscribe {
+    background-color: $color-notify-and-footer;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.wrapper__inner {
+    float: left;
+    width: 50%;
+    padding-right: 3%;
+}
+
+
+.wrapper__inner .notification--send {
+    padding-top: 5%;
+    margin: 0;
+    padding-left: 0;
+}
+
+.notification--send input[type="email"] {
+    outline: 0;
+    padding: 3% 3% 3% 4%;
+    -webkit-border-radius: 0.7em 0 0 0.7em;
+    -moz-border-radius: 0.7em 0 0 0.7em;
+    border-radius: 0.7em 0 0 0.7em;
+    border: 0;
+    float: left;
+    width: 50%;
+    font-size: 0.89em;
+}
+
+.notification--send input[type="submit"] {
+    background: $green-color;
+    color: $snow;
+    padding: 2.9%;
+    outline: 0;
+    border: 0;
+    margin-left: 0;
+    -webkit-border-radius: 0 0.7em 0.7em 0;
+    -moz-border-radius: 0 0.7em 0.7em 0;
+    border-radius: 0 0.7em 0.7em 0;
+    width: 27.81%;
+    font-weight: 600;
+    font-size: 0.89em;
+}
+
+.clearfloat:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+/* Testimonials section*/
+
+#testimonials {
+    background-color: $snow;
+}
+
+.testimonials--list {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    z-index: 9;
+}
+
+
+
+/* social pages section */
+
+.social {
+    margin: 0 auto;
+    width: 50em;
+    text-align: center;
+    padding-top: 2.66em;
+    padding-bottom: 2.66em;
+}
+
+#footer {
+    background-color: $color-notify-and-footer;
+    padding-top: 3.8em;
+    padding-bottom: 3.8em;
+}
+
+#footer .floor--site--map {
+    margin: 0 auto;
+    width: 50em;
+    padding: 0;
+    text-align: center;
+}

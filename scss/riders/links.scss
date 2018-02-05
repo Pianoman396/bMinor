@@ -1,0 +1,28 @@
+/* Social links */
+
+.social__resources .page a{
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  display: inline-block;
+  color:$snow;
+  background-color:$color-notify-and-footer;
+  @include cubic-bezier-pages();
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  font-size: 1.17em;
+  text-align: center;
+}
+
+.social__resources > .page a:hover{
+  background-color:$green-color;
+}
+
+/*  Floor navigation links */
+
+.navig--menu .itm-menu a{
+  font-family:$main-font,$fieutures-description;
+  color:$main-color;
+  font-size:$friends-section-describs-font;
+}

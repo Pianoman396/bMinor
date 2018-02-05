@@ -1,0 +1,91 @@
+/*
+*  Header text Content  -->
+*/
+
+.text--description--app{
+   font-family:$logo-description;
+   color:$logo-description-color;
+   font-size:$main-font-size;
+   line-height: 1.5em;
+   margin:1% 0 1% 0;
+}
+
+/*
+*  Main fiutures content  -->
+*/
+
+.fiuture--tabs .tab--name{
+  font-family:$fieutures-fonts;
+  color:$main-tabs-title-color;
+  padding: 7% 0 6% 0;
+}
+.fiuture--tabs .description{
+  color:$main-color;
+  font-family:$fieutures-description;
+  font-size: 0.77777777em;
+  line-height: 1.55em;
+}
+
+/*
+*  Main subscribe content  -->
+*/
+
+.wrapper__inner .title--subscribe{
+  font-family:$fieutures-fonts;
+  color:$main-tabs-title-color;
+  padding-bottom: 5%;
+}
+
+.wrapper__inner .content{
+  color:$main-color;
+  font-family:$fieutures-description;
+  font-size: 0.77777777em;
+  line-height: 1.55em;
+  display: inline-block;
+}
+
+
+/*
+*  Main __ Testimonials Content -->
+*/
+.quote{
+  display: block;
+  font-family:$testimonials-quote;
+  color:$main-color;
+  font-size:0.918em;
+  line-height: 1.48em;
+  width:58.56515373em;
+  text-align:center;
+  padding-top:3.832em;
+  margin:0 auto;
+}
+.quote--after{
+  font-family:$fieutures-fonts;
+  color:$main-tabs-title-color;
+  font-size:0.918em;
+  text-align:center;
+  padding-top:2em;
+  padding-bottom:2em;
+}
+
+/*
+*  social pages content  -->
+*/
+
+.social__name{
+    font-family:$fieutures-fonts;
+    color:$main-tabs-title-color;
+    text-align:center;
+    padding:0 0 0 0;
+}
+.descript--pages{
+   font-family:$fieutures-description;
+   color:$main-color;
+   text-align:center;
+   font-size:$friends-section-describs-font;
+   padding: 3% 0 3% 0;
+}
+
+/*
+*  Main fiutures content  -->
+*/

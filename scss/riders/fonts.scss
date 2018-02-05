@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'helveticaneueitalic';
+    src: url('../fonts/helveticaneueit-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneueit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('../fonts/helveticaneue_medium-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* responsive Fonts
+
+ 16px = 16 * 100 / 1366vw  = 1.17vw
+
+ Font Styles*/

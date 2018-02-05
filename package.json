@@ -1,0 +1,29 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "project lending",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "console.log('works')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://workfreestyle@bitbucket.org/workfreestyle/workfreestyle.git"
+  },
+  "keywords": [
+    "test",
+    "project",
+    "on",
+    "gulp"
+  ],
+  "author": "Eric",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/workfreestyle/workfreestyle#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^3.1.0",
+    "jshint-stylish": "^2.2.1"
+  }
+}

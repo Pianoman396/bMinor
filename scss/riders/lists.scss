@@ -1,0 +1,70 @@
+.apps {
+    list-style: none;
+    padding-top: 2%;
+}
+
+.app:first-child {
+    padding-right: 10px;
+}
+
+.app:last-of-type {
+    padding-left: 10px;
+}
+
+
+.app {
+    display: inline-block;
+    font-size: $app-font-size;
+    a {
+        display: inline-block;
+        border-radius: 50%;
+        background-color: $app-container-color;
+        color: $app-static-color;
+        width: 2.5em;
+        height: 2.5em;
+        text-align: center;
+        line-height: 2.5em;
+        transition: 0.5s ease;
+    }
+}
+
+
+.app--apple:hover {
+    color: $logo-description-color;
+    background-color: $green-color;
+    font-color: hsla(360, 100%, 100%, 1);
+}
+
+.app--android:hover {
+    color: $logo-description-color;
+    background-color: $green-color;
+    font-color: hsla(360, 100%, 100%, 1);
+}
+
+.app--windows:hover {
+    color: $logo-description-color;
+    background-color: $green-color;
+    font-color: hsla(360, 100%, 100%, 1);
+}
+
+.slide {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90em;
+}
+
+.testimonials--list .slide .item {
+    display: inline-block;
+}
+
+
+.social__resources>.page {
+    display: inline-block;
+}
+
+
+.navig--menu .itm-menu {
+    display: inline-block;
+    padding: 0.5em;
+}

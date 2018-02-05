@@ -1,0 +1,89 @@
+#header {
+    background-image: url(../img/origin/header3.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 12.29868228%;
+}
+
+.logo .image {
+    width: 12em;
+}
+
+
+/*/\/\/ Subscribe Section Video \/\/\*/
+
+.subscribe__info {
+    float: right;
+    width: 50%;
+    height: 20.308em;
+    padding-left: 5%;
+    overflow: hidden;
+}
+
+.subscribe__info iframe {
+    /* width:36.16398243em;*/
+    /* height:22.10834553em;*/
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin-left: 0;
+}
+
+
+/*/\/\/ Testimonials img \/\/\*/
+
+.testimonials--list .slide .item .href--item img {
+    display: inline-block;
+    width: 3.66032210em;
+    height: 3.66032210em;
+    margin: 0;
+    -webkit-filter: grayscale(79%);
+    -moz-filter: grayscale(79%);
+    -o-filter: grayscale(79%);
+    -ms-filter: grayscale(79%);
+    filter: grayscale(79%);
+    -webkit-transition: 0.2s cubic-bezier(.93, .66, 0, .6);
+    -o-transition: 0.2s cubic-bezier(.93, .66, 0, .6);
+    -moz-transition: 0.2s cubic-bezier(.93, .66, 0, .6);
+    transition: 0.2s cubic-bezier(.93, .66, 0, .6);
+}
+
+.testimonials--list .slide .item .href--item img:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+}
+
+.testimonials--list::after{
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+  margin:0;
+  padding:1.85em 1.79em;
+  @include linear_gradient_left_side();
+  z-index:10;
+}
+.testimonials--list::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 1.85em 1.79em;
+    @include linear_gradient_right_side();
+    z-index: 10;
+}
+
+.left--side {
+    //     content:'';/*
+    // //   position:absolute;
+    // //   left:0;
+    // //   top:0;
+    // //   margin:0;
+    // //   padding:1.85em 1.79em;
+    // //   @include linear_gradient_left_side();
+    // //   z-index:10; */
+}

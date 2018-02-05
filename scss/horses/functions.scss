@@ -1,0 +1,13 @@
+/*
+Example use
+---------
+div{
+  width:get-vw(20px)vw;
+}
+---------
+*/
+
+@function get-vw($object) {
+    $vw: (1024 * 0.01) * 1px;
+    @return ($object / $vw) * 1vw;
+}

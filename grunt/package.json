@@ -1,0 +1,24 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "testwork",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "consoel.log('test command works')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://workfreestyle@bitbucket.org/workfreestyle/workfreestyle.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Eric",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/workfreestyle/workfreestyle#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
